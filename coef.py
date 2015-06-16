@@ -1,6 +1,6 @@
 import numpy
 def CoefIter(n,k):
-
+#coeficiente binomial
 	C = numpy.tile(0, (n+1,k+1))
 	
 	for i in range(0,n+1):
